@@ -1,0 +1,25 @@
+﻿img.img3 {
+    display: block;
+    position: absolute;
+    top: 95px;
+    right: 600px;
+    max-width: 15%;
+}
+
+    img.img3:hover {
+        opacity: 0.2;
+    }
+
+p.iron_man {
+    display: none;
+    border: 2px solid;
+    background-color: blue;
+    max-width: 10%;
+    position: absolute;
+    top: 120px;
+    left: 1080px;
+}
+
+div.iron_man:hover p {
+    display: block;
+}

@@ -1,0 +1,59 @@
+C:\Projekti\Quiz web\bin\Quiz web.dll.config
+C:\Projekti\Quiz web\bin\Quiz web.dll
+C:\Projekti\Quiz web\bin\Quiz web.pdb
+C:\Projekti\Quiz web\bin\roslyn\csc.exe
+C:\Projekti\Quiz web\bin\roslyn\csc.exe.config
+C:\Projekti\Quiz web\bin\roslyn\csc.rsp
+C:\Projekti\Quiz web\bin\roslyn\csi.exe
+C:\Projekti\Quiz web\bin\roslyn\csi.exe.config
+C:\Projekti\Quiz web\bin\roslyn\csi.rsp
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projekti\Quiz web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Projekti\Quiz web\bin\roslyn\System.AppContext.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Collections.Immutable.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Console.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Globalization.Calendars.dll
+C:\Projekti\Quiz web\bin\roslyn\System.IO.Compression.dll
+C:\Projekti\Quiz web\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Projekti\Quiz web\bin\roslyn\System.IO.FileSystem.dll
+C:\Projekti\Quiz web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Net.Http.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Net.Sockets.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Projekti\Quiz web\bin\roslyn\System.ValueTuple.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Xml.XPath.dll
+C:\Projekti\Quiz web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Projekti\Quiz web\bin\roslyn\vbc.exe
+C:\Projekti\Quiz web\bin\roslyn\vbc.exe.config
+C:\Projekti\Quiz web\bin\roslyn\vbc.rsp
+C:\Projekti\Quiz web\bin\roslyn\VBCSCompiler.exe
+C:\Projekti\Quiz web\bin\roslyn\VBCSCompiler.exe.config
+C:\Projekti\Quiz web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projekti\Quiz web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projekti\Quiz web\obj\Debug\Quiz web.csproj.AssemblyReference.cache
+C:\Projekti\Quiz web\obj\Debug\Quiz web.csproj.CoreCompileInputs.cache
+C:\Projekti\Quiz web\obj\Debug\Quiz web.csproj.CopyComplete
+C:\Projekti\Quiz web\obj\Debug\Quiz web.dll
+C:\Projekti\Quiz web\obj\Debug\Quiz web.pdb
