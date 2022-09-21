@@ -10,6 +10,7 @@
     <link href="home.css" rel="stylesheet" />
     <link href="nav_bar.css" rel="stylesheet" />
     <link href="iron_man.css" rel="stylesheet" />
+    <link href="Thor.css" rel="stylesheet" />
     <title>Home</title>
 </head>
 <body>
@@ -40,9 +41,13 @@
         </div>
         <div class="iron_man">
             <asp:Image ID="Image3" runat="server" ImageUrl="images/iron_man.jpg" CssClass="img3" />
-            <p class="dc"></p>
+            <p class="iron_man">Tony Stark. A wealthy American business magnate, playboy, philanthropist,
+                inventor and ingenious scientist</p>
         </div>
-
+        <div class="thor">
+            <asp:Image ID="Image4" runat="server" ImageUrl="~/images/Thor.jpg" CssClass="img4" />
+            <p class="thor">Norse god of thunder. Lives in Asgard. Descendant of Odin.</p>
+        </div>
       
     </form>
 </body>

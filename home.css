@@ -30,15 +30,15 @@ img.img1 {
     img.img1:hover {
         opacity:0.2;
     }
-    p.marvel {
-        display: none;
-        border: 2px solid;
-        background-color: red;
-        max-width: 20%;
-        position:absolute;
-        top: 140px;
-        left: 550px;
-    }
+p.marvel {
+    display: none;
+    border: 2px solid;
+    background-color: #b32b2b;
+    max-width: 20%;
+    position: absolute;
+    top: 140px;
+    left: 550px;
+}
     div.ex1:hover p {
         display: block;
     }
@@ -53,15 +53,15 @@ img.img2 {
     img.img2:hover {
         opacity: 0.2;
     }
-    p.dc {
-        display: none;
-        border: 2px solid;
-        background-color: blue;
-        max-width: 10%;
-        position: absolute;
-        top: 120px;
-        left: 1080px;
-    }
+p.dc {
+    display: none;
+    border: 2px solid;
+    background-color: #2b30ba;
+    max-width: 10%;
+    position: absolute;
+    top: 120px;
+    left: 1080px;
+}
 
     div.ex2:hover p {
         display: block;

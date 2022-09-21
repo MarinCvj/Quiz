@@ -72,8 +72,10 @@
     <Content Include="images\dc_logo.jpg" />
     <Content Include="images\iron_man.jpg" />
     <Content Include="images\marvel_logo.png" />
+    <Content Include="images\Thor.jpg" />
     <Content Include="iron_man.css" />
     <Content Include="nav_bar.css" />
+    <Content Include="Thor.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,25 +1,25 @@
-﻿img.img3 {
+﻿img.img4 {
     display: block;
     position: absolute;
-    top: 550px;
+    top: 830px;
     left: 50px;
     max-width: 15%;
 }
 
-img.img3:hover {
+img.img4:hover {
     opacity: 0.2;
 }
 
-p.iron_man {
+p.thor {
     display: none;
     border: 2px solid;
     background-color: #b32b2b;
     max-width: 5%;
     position: absolute;
-    top: 570px;
+    top: 860px;
     left: 95px;
 }
 
-div.iron_man:hover p {
+div.thor:hover p {
     display: block;
 }
