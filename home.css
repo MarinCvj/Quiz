@@ -1,4 +1,8 @@
-﻿body {
+﻿*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body {
     background-color: #3d3939;
     color: white;
     font-family: Graphik,sans-serif;
@@ -27,21 +31,21 @@ img.img1 {
     left:500px;
     width: 25%;
 }
-    img.img1:hover {
-        opacity:0.2;
-    }
 p.marvel {
     display: none;
-    border: 2px solid;
+    border: 2px solid #b32b2b;
     background-color: #b32b2b;
     max-width: 20%;
     position: absolute;
-    top: 140px;
+    top: 155px;
     left: 550px;
 }
-    div.ex1:hover p {
-        display: block;
-    }
+div.ex1:hover p {
+    display: block;
+}
+div.ex1:hover img {
+    opacity: 0.2;
+}
 
 img.img2 {
     display: block;
@@ -50,19 +54,18 @@ img.img2 {
     right: 600px;
     max-width: 15%;
 }
-    img.img2:hover {
-        opacity: 0.2;
-    }
 p.dc {
     display: none;
-    border: 2px solid;
+    border: 2px solid #2b30ba;
     background-color: #2b30ba;
     max-width: 10%;
     position: absolute;
     top: 120px;
-    left: 1080px;
+    left: 1070px;
 }
-
-    div.ex2:hover p {
-        display: block;
-    }
+div.ex2:hover p {
+    display: block;
+}
+div.ex2:hover img {
+    opacity: 0.2;
+}

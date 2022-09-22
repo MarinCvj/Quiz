@@ -1,24 +1,25 @@
-﻿img.img3 {
+﻿img.img7 {
     display: block;
     position: absolute;
-    top: 550px;
-    left: 50px;
+    top: 830px;
+    left: 300px;
     max-width: 15%;
 }
 
-p.iron_man {
+p.hawkeye {
     display: none;
     border: 2px solid #b32b2b;
     background-color: #b32b2b;
-    max-width: 5%;
+    max-width: 7%;
     position: absolute;
-    top: 590px;
-    left: 95px;
+    top: 880px;
+    left: 325px;
 }
 
-div.iron_man:hover p {
+div.hawkeye:hover p {
     display: block;
 }
-div.iron_man:hover img {
+
+div.hawkeye:hover img {
     opacity: 0.2;
 }

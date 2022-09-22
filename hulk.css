@@ -1,24 +1,25 @@
-﻿img.img3 {
+﻿img.img8 {
     display: block;
     position: absolute;
-    top: 550px;
-    left: 50px;
+    top: 1050px;
+    left: 300px;
     max-width: 15%;
 }
 
-p.iron_man {
+p.hulk {
     display: none;
     border: 2px solid #b32b2b;
     background-color: #b32b2b;
-    max-width: 5%;
+    max-width: 7%;
     position: absolute;
-    top: 590px;
-    left: 95px;
+    top: 1080px;
+    left: 325px;
 }
 
-div.iron_man:hover p {
+div.hulk:hover p {
     display: block;
 }
-div.iron_man:hover img {
+
+div.hulk:hover img {
     opacity: 0.2;
 }

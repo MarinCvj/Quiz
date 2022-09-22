@@ -5,14 +5,9 @@
     left: 50px;
     max-width: 15%;
 }
-
-img.img4:hover {
-    opacity: 0.2;
-}
-
 p.thor {
     display: none;
-    border: 2px solid;
+    border: 2px solid #b32b2b;
     background-color: #b32b2b;
     max-width: 5%;
     position: absolute;
@@ -22,4 +17,7 @@ p.thor {
 
 div.thor:hover p {
     display: block;
+}
+div.thor:hover img {
+    opacity: 0.2;
 }

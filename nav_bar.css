@@ -5,8 +5,10 @@
     overflow: hidden;
     background-color: #7d6f6f;
     position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
+    z-index: 1;
 }
 li {
     text-align:center;
