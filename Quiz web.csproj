@@ -67,25 +67,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="black_widow.css" />
-    <Content Include="cap.css" />
-    <Content Include="Hawkeye.css" />
+    <Content Include="images\versus.png" />
+    <Content Include="mDC_styles\aquaman.css" />
+    <Content Include="mDC_styles\batman.css" />
+    <Content Include="mDC_styles\cyborg.css" />
+    <Content Include="mDC_styles\flash.css" />
+    <Content Include="mDC_styles\malcom.css" />
+    <Content Include="mDC_styles\superman.css" />
+    <Content Include="mDC_styles\wonder_woman.css" />
+    <Content Include="images\DC\aquaman.jpg" />
+    <Content Include="images\DC\batman.jpg" />
+    <Content Include="images\DC\cyborg.jpg" />
+    <Content Include="images\DC\flash.jpg" />
+    <Content Include="images\DC\superman.jpg" />
+    <Content Include="images\DC\wonder_woman.jpg" />
+    <Content Include="marvel_styles\black_widow.css" />
+    <Content Include="marvel_styles\cap.css" />
+    <Content Include="marvel_styles\Hawkeye.css" />
     <Content Include="Home.aspx" />
     <Content Include="home.css" />
-    <Content Include="hulk.css" />
-    <Content Include="images\Black_Widow.jpg" />
-    <Content Include="images\cap.jpg" />
-    <Content Include="images\dc_logo.jpg" />
-    <Content Include="images\hawkeye.jpg" />
-    <Content Include="images\hulk.jpg" />
-    <Content Include="images\iron_man.jpg" />
-    <Content Include="images\marvel_logo.png" />
-    <Content Include="images\stanlee.jpeg" />
-    <Content Include="images\Thor.jpg" />
-    <Content Include="iron_man.css" />
+    <Content Include="marvel_styles\hulk.css" />
+    <Content Include="images\DC\malcom.jpg" />
+    <Content Include="images\marvel\Black_Widow.jpg" />
+    <Content Include="images\marvel\cap.jpg" />
+    <Content Include="images\DC\dc_logo.jpg" />
+    <Content Include="images\marvel\hawkeye.jpg" />
+    <Content Include="images\marvel\hulk.jpg" />
+    <Content Include="images\marvel\iron_man.jpg" />
+    <Content Include="images\marvel\marvel_logo.png" />
+    <Content Include="images\marvel\stanlee.jpeg" />
+    <Content Include="images\marvel\Thor.jpg" />
+    <Content Include="marvel_styles\iron_man.css" />
     <Content Include="nav_bar.css" />
-    <Content Include="stanlee.css" />
-    <Content Include="Thor.css" />
+    <Content Include="marvel_styles\stanlee.css" />
+    <Content Include="marvel_styles\Thor.css" />
+    <Content Include="versus.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

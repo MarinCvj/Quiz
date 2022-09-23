@@ -1,0 +1,25 @@
+﻿img.img13 {
+    display: block;
+    position: absolute;
+    top: 810px;
+    right: 50px;
+    max-width: 30%;
+}
+
+p.flash {
+    display: none;
+    border: 2px solid #2b30ba;
+    background-color: #2b30ba;
+    max-width: 7%;
+    position: absolute;
+    top: 890px;
+    right: 75px;
+}
+
+div.flash:hover p {
+    display: block;
+}
+
+div.flash:hover img {
+    opacity: 0.2;
+}

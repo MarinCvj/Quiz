@@ -1,0 +1,25 @@
+﻿img.img12 {
+    display: block;
+    position: absolute;
+    top: 550px;
+    right: 300px;
+    max-width: 20%;
+}
+
+p.batman {
+    display: none;
+    border: 2px solid #2b30ba;
+    background-color: #2b30ba;
+    max-width: 7%;
+    position: absolute;
+    top: 600px;
+    right: 325px;
+}
+
+div.batman:hover p {
+    display: block;
+}
+
+div.batman:hover img {
+    opacity: 0.2;
+}

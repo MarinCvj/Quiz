@@ -1,0 +1,25 @@
+﻿img.img16 {
+    display: block;
+    position: absolute;
+    top: 1090px;
+    right: 300px;
+    max-width: 20%;
+}
+
+p.cyborg {
+    display: none;
+    border: 2px solid #2b30ba;
+    background-color: #2b30ba;
+    max-width: 7%;
+    position: absolute;
+    top: 1135px;
+    right: 320px;
+}
+
+div.cyborg:hover p {
+    display: block;
+}
+
+div.cyborg:hover img {
+    opacity: 0.2;
+}

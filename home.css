@@ -8,6 +8,7 @@ body {
     font-family: Graphik,sans-serif;
     text-align: center;
 }
+
 h1.center {
     margin: 0;
     position: absolute;
@@ -16,6 +17,7 @@ h1.center {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 p.center {
     margin: 0;
     position: absolute;
@@ -24,13 +26,15 @@ p.center {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 img.img1 {
     display: block;
-    position:absolute;
-    top:120px;
-    left:500px;
+    position: absolute;
+    top: 120px;
+    left: 500px;
     width: 25%;
 }
+
 p.marvel {
     display: none;
     border: 2px solid #b32b2b;
@@ -40,9 +44,11 @@ p.marvel {
     top: 155px;
     left: 550px;
 }
+
 div.ex1:hover p {
     display: block;
 }
+
 div.ex1:hover img {
     opacity: 0.2;
 }
@@ -54,6 +60,7 @@ img.img2 {
     right: 600px;
     max-width: 15%;
 }
+
 p.dc {
     display: none;
     border: 2px solid #2b30ba;
@@ -63,9 +70,11 @@ p.dc {
     top: 120px;
     left: 1070px;
 }
+
 div.ex2:hover p {
     display: block;
 }
+
 div.ex2:hover img {
     opacity: 0.2;
 }
