@@ -1,42 +1,22 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="Quiz_web.Home" %>
+<%@ Register Src="~/Controls/Includes.ascx" TagPrefix="uc1" TagName="Includes" %>
+<%@ Register Src="~/Controls/Navigation.ascx" TagPrefix="uc1" TagName="Navigation" %>
+
+
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="home.css" rel="stylesheet" />
-    <link href="nav_bar.css" rel="stylesheet" />
-    <link href="marvel_styles/iron_man.css" rel="stylesheet" />
-    <link href="marvel_styles/Thor.css" rel="stylesheet" />
-    <link href="marvel_styles/cap.css" rel="stylesheet" />
-    <link href="marvel_styles/black_widow.css" rel="stylesheet" />
-    <link href="marvel_styles/Hawkeye.css" rel="stylesheet" />
-    <link href="marvel_styles/hulk.css" rel="stylesheet" />
-    <link href="marvel_styles/stanlee.css" rel="stylesheet" />
-    <link href="mDC_styles/malcom.css" rel="stylesheet" />
-    <link href="mDC_styles/aquaman.css" rel="stylesheet" />
-    <link href="mDC_styles/batman.css" rel="stylesheet" />
-    <link href="mDC_styles/cyborg.css" rel="stylesheet" />
-    <link href="mDC_styles/flash.css" rel="stylesheet" />
-    <link href="mDC_styles/superman.css" rel="stylesheet" />
-    <link href="mDC_styles/wonder_woman.css" rel="stylesheet" />
-    <link href="versus.css" rel="stylesheet" />
+    <uc1:Includes runat="server" id="Includes" />
     <title>Home</title>
 </head>
 <body>
     <form id="form1" runat="server">
-        <ul>
-          <li><a class="active" href="#home">Home</a></li>
-          <li><a href="#quizes">Quizes</a></li>
-          <li><a href="#Sign up">Sign up</a></li>
-          <li><a href="#Log in">Log in</a></li>
-        </ul>
+        <uc1:Navigation runat="server" id="Navigation" />
 
         <h1 class="center"> Welcome to Marvel and DC quiz! </h1>
-        <p class="center"> Here you can see if you are a true fan of Marvel Comic Universe. </p>       
+        <p class="center"> Here you can see if you are a true fan of the MCU and DC. </p>       
 
         
         <br />

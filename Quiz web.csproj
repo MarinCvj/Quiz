@@ -67,7 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Controls\Includes.ascx" />
+    <Content Include="Controls\Navigation.ascx" />
     <Content Include="images\versus.png" />
+    <Content Include="Log_in.aspx" />
     <Content Include="mDC_styles\aquaman.css" />
     <Content Include="mDC_styles\batman.css" />
     <Content Include="mDC_styles\cyborg.css" />
@@ -85,7 +88,7 @@
     <Content Include="marvel_styles\cap.css" />
     <Content Include="marvel_styles\Hawkeye.css" />
     <Content Include="Home.aspx" />
-    <Content Include="home.css" />
+    <Content Include="mStyles\home.css" />
     <Content Include="marvel_styles\hulk.css" />
     <Content Include="images\DC\malcom.jpg" />
     <Content Include="images\marvel\Black_Widow.jpg" />
@@ -98,13 +101,32 @@
     <Content Include="images\marvel\stanlee.jpeg" />
     <Content Include="images\marvel\Thor.jpg" />
     <Content Include="marvel_styles\iron_man.css" />
-    <Content Include="nav_bar.css" />
+    <Content Include="mStyles\log_in.css" />
+    <Content Include="mStyles\nav_bar.css" />
     <Content Include="marvel_styles\stanlee.css" />
     <Content Include="marvel_styles\Thor.css" />
-    <Content Include="versus.css" />
+    <Content Include="mStyles\quizes.css" />
+    <Content Include="Quizes.aspx" />
+    <Content Include="Sign_up.aspx" />
+    <Content Include="mStyles\sign_up.css" />
+    <Content Include="mStyles\versus.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\Includes.ascx.cs">
+      <DependentUpon>Includes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Includes.ascx.designer.cs">
+      <DependentUpon>Includes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Navigation.ascx.cs">
+      <DependentUpon>Navigation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Navigation.ascx.designer.cs">
+      <DependentUpon>Navigation.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -112,7 +134,28 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Log_in.aspx.cs">
+      <DependentUpon>Log_in.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Log_in.aspx.designer.cs">
+      <DependentUpon>Log_in.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quizes.aspx.cs">
+      <DependentUpon>Quizes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quizes.aspx.designer.cs">
+      <DependentUpon>Quizes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sign_up.aspx.cs">
+      <DependentUpon>Sign_up.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sign_up.aspx.designer.cs">
+      <DependentUpon>Sign_up.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
