@@ -7,11 +7,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <uc1:Includes runat="server" id="Includes" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Sign up</title>
 </head>
 <body>
     <form id="form1" runat="server">
         <uc1:Navigation runat="server" id="Navigation" />
+
+        <div>
+            <h1> Create your new account. </h1>
+
+            <p class="email"> Email: </p>
+            <asp:TextBox runat="server" TextMode="Email" CssClass="email_box w3-hover-green" placeholder="email"></asp:TextBox>
+
+            <p class="password"> Password: </p>
+            <asp:TextBox runat="server" TextMode="Password" CssClass="password_box w3-hover-red" placeholder="password"></asp:TextBox>
+
+            <asp:Button runat="server" Text="Submit" CssClass="button button1" />
+        </div>
     </form>
 </body>
 </html>

@@ -11,10 +11,24 @@ namespace Quiz_web.Controls
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //string path = HttpContext.Current.Request.Url.AbsolutePath;
-            //int pos = path.LastIndexOf("/") + 1;
+            string path = Request.Url.ToString();
 
-
+            if (path.Contains("Home.aspx"))
+            {
+                home.Attributes["class"] = "active";
+            }
+            else if (path.Contains("Quizes.aspx")) 
+            {
+                quiz.Attributes["class"] = "active";
+            }
+            else if (path.Contains("Sign_up.aspx"))
+            {
+                sign_up.Attributes["class"] = "active";
+            }
+            else if (path.Contains("Log_in.aspx"))
+            {
+                log_in.Attributes["class"] = "active";
+            }
         }
     }
 }

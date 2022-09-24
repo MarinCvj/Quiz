@@ -11,7 +11,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <uc1:Navigation runat="server" id="Navigation" />
+        <uc1:Navigation runat="server" id="Navigation" />       
+
         
     </form>
 </body>
