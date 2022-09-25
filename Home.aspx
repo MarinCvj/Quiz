@@ -21,16 +21,16 @@
         
         <br />
         <div class="ex1">
-            <asp:Image ID="Image1" runat="server" ImageUrl="images/marvel/marvel_logo.png" CssClass="img1" />
+            <asp:Image ID="Image1" runat="server" ImageUrl="images/marvel/marvel_logo.png" CssClass="img1 w3-round-xxlarge" />
             <p class="marvel"> The Marvel Cinematic Universe (MCU) is an American media franchise and 
                 shared universe centered on a series of superhero films produced by Marvel Studios. 
                 The films are based on characters that appear in American comic books published by Marvel Comics.</p>
         </div>
         <div class="ex2">
-            <asp:Image ID="Image2" runat="server" ImageUrl="images/DC/dc_logo.jpg" CssClass="img2" />
+            <asp:Image ID="Image2" runat="server" ImageUrl="images/DC/dc_logo.jpg" CssClass="img2 w3-round-xxlarge" />
             <p class="dc">DC Comics, Inc. (or simply DC) is an American comic book publisher and 
                 the flagship unit of DC Entertainment, a subsidiary of Warner Bros. 
-                Entrepreneur Major Malcolm Wheeler-Nicholson founded Dc comics.</p>
+            </p>
         </div>
 
         <!-- Marvel side -->

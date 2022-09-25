@@ -7,7 +7,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <uc1:Includes runat="server" id="Includes" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Sign up</title>
 </head>
 <body>

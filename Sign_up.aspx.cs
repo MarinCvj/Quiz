@@ -24,7 +24,7 @@ namespace Quiz_web
             string email_text = email.Text;
             string password_text = password.Text;
 
-            string user = "INSERT INTO quiz_table (email, password) VALUES ('" + password_text + "','" + email_text + "')";
+            string user = "INSERT INTO quiz_table (email, password) VALUES ('" + email_text + "','" + password_text + "')";
             SqlCommand sqlCmd = new SqlCommand(user, cnn);
             sqlCmd.ExecuteNonQuery();
 

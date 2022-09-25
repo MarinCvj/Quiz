@@ -22,3 +22,4 @@
     <link href="mDC_styles/flash.css" rel="stylesheet" />
     <link href="mDC_styles/superman.css" rel="stylesheet" />
     <link href="mDC_styles/wonder_woman.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
