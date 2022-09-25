@@ -14,7 +14,7 @@
     <form id="form1" runat="server">
         <uc1:Navigation runat="server" id="Navigation" />
 
-        <div>
+        <div class="w3-container">
             <h1> Create your new account. </h1>
 
             <p class="email"> Email: </p>
