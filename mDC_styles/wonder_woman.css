@@ -12,8 +12,8 @@ p.wonder_woman {
     background-color: #2b30ba;
     max-width: 7%;
     position: absolute;
-    top: 890px;
-    right: 320px;
+    top: 850px;
+    right: 325px;
 }
 
 div.wonder_woman:hover p {

@@ -9,10 +9,10 @@ p.thor {
     display: none;
     border: 2px solid #b32b2b;
     background-color: #b32b2b;
-    max-width: 5%;
+    max-width: 7%;
     position: absolute;
     top: 860px;
-    left: 95px;
+    left: 75px;
 }
 
 div.thor:hover p {
