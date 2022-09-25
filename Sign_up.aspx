@@ -18,12 +18,12 @@
             <h1> Create your new account. </h1>
 
             <p class="email"> Email: </p>
-            <asp:TextBox runat="server" TextMode="Email" CssClass="email_box w3-hover-green" placeholder="email"></asp:TextBox>
+            <asp:TextBox runat="server" id="email" TextMode="Email" CssClass="email_box w3-hover-green" placeholder="email"></asp:TextBox>
 
             <p class="password"> Password: </p>
-            <asp:TextBox runat="server" TextMode="Password" CssClass="password_box w3-hover-red" placeholder="password"></asp:TextBox>
+            <asp:TextBox runat="server" id="password" TextMode="Password" CssClass="password_box w3-hover-red" placeholder="password"></asp:TextBox>
 
-            <asp:Button runat="server" Text="Submit" CssClass="button button1" />
+            <asp:Button runat="server" Text="Submit" CssClass="button button1" OnClick="Submit_Click"/>
         </div>
     </form>
 </body>
