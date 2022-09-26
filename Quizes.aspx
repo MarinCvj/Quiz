@@ -44,6 +44,34 @@
                 <p class="avengers4 w3-round-xlarge"> The Avengers Endgame quiz. </p>
             </a>
         </div>
+
+        <div class="justice_league">
+            <a href="Home.aspx">
+                <asp:Image runat="server" ImageUrl="~/images/DC/justice_league.jpg" CssClass="justice_league w3-round-xlarge" />
+                <p class="justice_league w3-round-xlarge"> Justice league quiz. </p>
+            </a>
+        </div>
+
+        <div class="shazam">
+            <a href="Home.aspx">
+                <asp:Image runat="server" ImageUrl="~/images/DC/shazam.jpg" CssClass="shazam w3-round-xlarge" />
+                <p class="shazam w3-round-xlarge"> Shazam quiz. </p>
+            </a>
+        </div>
+
+        <div class="bat_vs_sup">
+            <a href="Home.aspx">
+                <asp:Image runat="server" ImageUrl="~/images/DC/bat_vs_sup.jpg" CssClass="bat_vs_sup w3-round-xlarge" />
+                <p class="bat_vs_sup w3-round-xlarge"> Batman vs superman quiz. </p>
+            </a>
+        </div>
+
+        <div class="green_lantern">
+            <a href="Home.aspx">
+                <asp:Image runat="server" ImageUrl="~/images/DC/green_lantern.jpeg" CssClass="green_lantern w3-round-xlarge" />
+                <p class="green_lantern w3-round-xlarge"> Green lantern quiz. </p>
+            </a>
+        </div>
     </form>
 </body>
 </html>

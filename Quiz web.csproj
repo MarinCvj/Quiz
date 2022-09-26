@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="Controls\Includes.ascx" />
     <Content Include="Controls\Navigation.ascx" />
+    <Content Include="images\DC\bat_vs_sup.jpg" />
+    <Content Include="images\DC\green_lantern.jpeg" />
+    <Content Include="images\DC\justice_league.jpg" />
+    <Content Include="images\DC\shazam.jpg" />
     <Content Include="images\marvel\avengers1.jpg" />
     <Content Include="images\marvel\avengers2.jpg" />
     <Content Include="images\marvel\avengers3.jpg" />
@@ -96,6 +100,10 @@
     <Content Include="mquiz_styles\avengers2.css" />
     <Content Include="mquiz_styles\avengers3.css" />
     <Content Include="mquiz_styles\avengers4.css" />
+    <Content Include="mquiz_styles\bat_vs_sup.css" />
+    <Content Include="mquiz_styles\green_lantern.css" />
+    <Content Include="mquiz_styles\justice_league.css" />
+    <Content Include="mquiz_styles\shazam.css" />
     <Content Include="mStyles\home.css" />
     <Content Include="marvel_styles\hulk.css" />
     <Content Include="images\DC\malcom.jpg" />
