@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Avengers1_quiz.aspx" />
     <Content Include="Controls\Includes.ascx" />
     <Content Include="Controls\Navigation.ascx" />
     <Content Include="images\DC\bat_vs_sup.jpg" />
@@ -104,6 +105,7 @@
     <Content Include="mquiz_styles\green_lantern.css" />
     <Content Include="mquiz_styles\justice_league.css" />
     <Content Include="mquiz_styles\shazam.css" />
+    <Content Include="mStyles\Avengers1.css" />
     <Content Include="mStyles\home.css" />
     <Content Include="marvel_styles\hulk.css" />
     <Content Include="images\DC\malcom.jpg" />
@@ -129,6 +131,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Avengers1_quiz.aspx.cs">
+      <DependentUpon>Avengers1_quiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Avengers1_quiz.aspx.designer.cs">
+      <DependentUpon>Avengers1_quiz.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\Includes.ascx.cs">
       <DependentUpon>Includes.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

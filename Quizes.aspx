@@ -18,7 +18,7 @@
         <h3> Go and try it. </h3>
 
         <div class="avengers1">
-            <a href="Home.aspx">
+            <a href="Avengers1_quiz.aspx">
                 <asp:Image runat="server" ImageUrl="~/images/marvel/avengers1.jpg" CssClass="avengers1 w3-round-xlarge" />
                 <p class="avengers1 w3-round-xlarge"> The Avengers quiz. </p>
             </a>
