@@ -22,13 +22,13 @@
         <br />
         <div class="ex1">
             <asp:Image ID="Image1" runat="server" ImageUrl="images/marvel/marvel_logo.png" CssClass="img1 w3-round-xxlarge" />
-            <p class="marvel"> The Marvel Cinematic Universe (MCU) is an American media franchise and 
+            <p class="marvel w3-round-xxlarge"> The Marvel Cinematic Universe (MCU) is an American media franchise and 
                 shared universe centered on a series of superhero films produced by Marvel Studios. 
                 The films are based on characters that appear in American comic books published by Marvel Comics.</p>
         </div>
         <div class="ex2">
             <asp:Image ID="Image2" runat="server" ImageUrl="images/DC/dc_logo.jpg" CssClass="img2 w3-round-xxlarge" />
-            <p class="dc">DC Comics, Inc. (or simply DC) is an American comic book publisher and 
+            <p class="dc w3-round-xxlarge">DC Comics, Inc. (or simply DC) is an American comic book publisher and 
                 the flagship unit of DC Entertainment, a subsidiary of Warner Bros. 
             </p>
         </div>
@@ -36,7 +36,7 @@
         <!-- Marvel side -->
         <div class="iron_man">
             <asp:Image ID="Image3" runat="server" ImageUrl="images/marvel/iron_man.jpg" CssClass="img3 w3-round-xlarge" />
-            <p class="iron_man">Tony Stark. A wealthy American business magnate, playboy, philanthropist,
+            <p class="iron_man w3-round-xlarge">Tony Stark. A wealthy American business magnate, playboy, philanthropist,
                 inventor and ingenious scientist</p>
         </div>
         <div class="thor">
@@ -45,26 +45,26 @@
         </div>
         <div class="cap">
             <asp:Image ID="Image5" runat="server" ImageUrl="~/images/marvel/cap.jpg" CssClass="img5 w3-round-xlarge" />
-            <p class="cap">The first Avenger. He is a leader of the Avengers. Recipient of the Super Soldier serum</p>
+            <p class="cap w3-round-xlarge">The first Avenger. He is a leader of the Avengers. Recipient of the Super Soldier serum</p>
         </div>
         <div class="black_widow">
             <asp:Image ID="Image6" runat="server" ImageUrl="~/images/marvel/Black_Widow.jpg" CssClass="img6 w3-round-xlarge" />
-            <p class="black_widow">Black Widow (Natalia "Natasha" Romanova). Russian spy.
+            <p class="black_widow w3-round-xlarge">Black Widow (Natalia "Natasha" Romanova). Russian spy.
                 Became an agent of the spy agency S.H.I.E.L.D.</p>
         </div>
         <div class="hawkeye">
             <asp:Image ID="Image7" runat="server" ImageUrl="~/images/marvel/hawkeye.jpg" CssClass="img7 w3-round-xlarge" />
-            <p class="hawkeye"> Hawkeye (Clint Barton). Adopted the Ronin alias after his death and resurrection.</p>
+            <p class="hawkeye w3-round-xlarge"> Hawkeye (Clint Barton). Adopted the Ronin alias after his death and resurrection.</p>
         </div>
         <div class="hulk">
             <asp:Image ID="Image8" runat="server" ImageUrl="~/images/marvel/hulk.jpg" CssClass="img8 w3-round-xlarge" />
-            <p class="hulk">  Dr. Robert Bruce Banner, has an alter ego Hulk, a green-skinned, 
+            <p class="hulk w3-round-xlarge">  Dr. Robert Bruce Banner, has an alter ego Hulk, a green-skinned, 
                 muscular humanoid possessing a limitless degree of physical strength.
             </p>
         </div>
         <div class="stanlee">
             <asp:Image ID="Image9" runat="server" ImageUrl="~/images/marvel/stanlee.jpeg" CssClass="img9 w3-round-xxlarge" />
-            <p class="stanlee">  Stan Lee (1922 - 2018) was an American comic book writer, editor, publisher, and producer.
+            <p class="stanlee w3-round-xlarge">  Stan Lee (1922 - 2018) was an American comic book writer, editor, publisher, and producer.
                 Founded Marvel Comics and made it the way it is. Thank you Stan!
             </p>
         </div>
@@ -72,42 +72,42 @@
         <!-- DC side -->
         <div class="malcom">
             <asp:Image ID="Image10" runat="server" ImageUrl="~/images/DC/malcom.jpg" CssClass="img10 w3-round-xxlarge" />
-            <p class="malcom">  Major Malcolm Wheeler-Nicholson (1890 – 1965) was an American pulp magazine writer
+            <p class="malcom w3-round-xlarge">  Major Malcolm Wheeler-Nicholson (1890 – 1965) was an American pulp magazine writer
                 and entrepreneur who pioneered the American comic book. He founded DC Comics. Thank you Malcom!
             </p>
         </div>
         <div class="superman">
             <asp:Image ID="Image11" runat="server" ImageUrl="~/images/DC/superman.jpg" CssClass="img11 w3-round-xlarge" />
-            <p class="superman">  Superman was born on the planet Krypton and was named Kal-El. Earth name is Clark Kent.
+            <p class="superman w3-round-xlarge">  Superman was born on the planet Krypton and was named Kal-El. Earth name is Clark Kent.
             </p>
         </div>
         <div class="batman">
             <asp:Image ID="Image12" runat="server" ImageUrl="~/images/DC/batman.jpg" CssClass="img12 w3-round-xlarge" />
-            <p class="batman">  Batman is the alias of Bruce Wayne, a wealthy American philanthropist,
+            <p class="batman w3-round-xlarge">  Batman is the alias of Bruce Wayne, a wealthy American philanthropist,
                 and who resides in Gotham City.
             </p>
         </div>
         <div class="flash">
             <asp:Image ID="Image13" runat="server" ImageUrl="~/images/DC/flash.jpg" CssClass="img13 w3-round-xlarge" />
-            <p class="flash">  Barry Allan AKA The Flash got his powers from a lightning bolt
+            <p class="flash w3-round-xlarge">  Barry Allan AKA The Flash got his powers from a lightning bolt
                 after the particle accelerator explosion.
             </p>
         </div>
         <div class="wonder_woman">
             <asp:Image ID="Image14" runat="server" ImageUrl="~/images/DC/wonder_woman.jpg" CssClass="img14 w3-round-xlarge" />
-            <p class="wonder_woman">  Wonder Woman lived as an Amazon, along with superhuman powers as gifts by the Greek gods.
+            <p class="wonder_woman w3-round-xlarge">  Wonder Woman lived as an Amazon, along with superhuman powers as gifts by the Greek gods.
                 Biological daughter of Zeus and Hippolyta.
             </p>
         </div>
         <div class="aquaman">
             <asp:Image ID="Image15" runat="server" ImageUrl="~/images/DC/aquaman.jpg" CssClass="img15 w3-round-xlarge" />
-            <p class="aquaman"> Arthur Curry is the King of Atlantis, the firstborn son of Queen Atlanna.
+            <p class="aquaman w3-round-xlarge"> Arthur Curry is the King of Atlantis, the firstborn son of Queen Atlanna.
                 half-brother of Orm Marius, and a member of the Justice League.
             </p>
         </div>
         <div class="cyborg">
             <asp:Image ID="Image16" runat="server" ImageUrl="~/images/DC/cyborg.jpg" CssClass="img16 w3-round-xlarge" />
-            <p class="cyborg"> Victor Stone is Cyborg, a high school student merged with a Mother Box when he was injured.
+            <p class="cyborg w3-round-xlarge"> Victor Stone is Cyborg, a high school student merged with a Mother Box when he was injured.
         </div>
 
         <!-- Versus -->

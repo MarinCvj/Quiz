@@ -9,3 +9,42 @@ body {
     font-family: Graphik,sans-serif;
     text-align: center;
 }
+h1 {
+    position:absolute;
+    top:70px;
+    left: 625px;
+}
+h2 {
+    position: absolute;
+    top: 120px;
+    left: 625px;
+}
+h3 {
+    position: absolute;
+    top: 170px;
+    left: 900px;
+}
+img.avengers1 {
+    position:absolute;
+    top:300px;
+    left:200px;
+    max-width: 20%;
+}
+img.avengers2 {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    max-width: 20%;
+}
+img.avengers3 {
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    max-width: 20%;
+}
+img.avengers4 {
+    position: absolute;
+    top: 300px;
+    left: 1400px;
+    max-width: 20.5%;
+}

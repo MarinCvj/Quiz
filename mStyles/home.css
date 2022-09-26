@@ -5,7 +5,7 @@
 body {
     background-color: #3d3939;
     color: white;
-    font-family: Graphik,sans-serif;
+    font-family: sans-serif;
     text-align: center;
 }
 
@@ -41,7 +41,7 @@ p.marvel {
     background-color: #b32b2b;
     max-width: 20%;
     position: absolute;
-    top: 155px;
+    top: 145px;
     left: 550px;
 }
 
@@ -67,7 +67,7 @@ p.dc {
     background-color: #2b30ba;
     max-width: 10%;
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 1070px;
 }
 

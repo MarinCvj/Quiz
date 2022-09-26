@@ -23,3 +23,7 @@
     <link href="mDC_styles/superman.css" rel="stylesheet" />
     <link href="mDC_styles/wonder_woman.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="mquiz_styles/avengers1.css"/>
+    <link rel="stylesheet" href="mquiz_styles/avengers2.css"/>
+    <link rel="stylesheet" href="mquiz_styles/avengers3.css"/>
+    <link rel="stylesheet" href="mquiz_styles/avengers4.css"/>
