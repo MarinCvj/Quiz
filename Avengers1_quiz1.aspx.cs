@@ -36,7 +36,8 @@ namespace Quiz_web
                 SqlCommand sqlCmd = new SqlCommand(ans, cnn);
                 sqlCmd.ExecuteNonQuery();
             }
+            Response.Redirect("Avengers1_quiz2.aspx");
             cnn.Close();
-        }        
+        }
     }
 }

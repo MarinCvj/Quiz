@@ -6,7 +6,7 @@ body {
     background-color: #3d3939;
     font-family: sans-serif;
 }
-div.question1 {
+div.question {
     color:black;
     max-width:100%;
     width: 30%;
@@ -18,28 +18,33 @@ div.question1 {
     left:35%;
     border: 2px solid black;
 }
-.avengers1_q1_1guess {
+.avengers1_1guess {
     position:absolute;
     top: 40%;
     left: 43%;
 }
-.avengers1_q1_2guess {
+.avengers1_2guess {
     position: absolute;
     top: 50%;
     left: 43%;
 }
-.avengers1_q1_3guess {
+.avengers1_3guess {
     position: absolute;
     top: 60%;
     left: 43%;
 }
-.avengers1_q1_next_button {
+.avengers1_next_button {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+.avengers1_previous_button {
     position: absolute;
     top: 80%;
     left: 10%;
 }
-.avengers1_q1_previous_button {
+h1.score1 {
     position: absolute;
-    top: 80%;
-    left: 80%;
+    top: 20%;
+    left: 30%;
 }
