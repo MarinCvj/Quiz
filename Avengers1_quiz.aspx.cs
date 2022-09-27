@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -9,19 +11,32 @@ namespace Quiz_web
 {
     public partial class Avengers1_quiz : System.Web.UI.Page
     {
+        SqlConnection cnn;
+        string email;
+
         protected void Page_Load(object sender, EventArgs e)
         {
+            string cs = ConfigurationManager.ConnectionStrings["MyDB"].ConnectionString;
+            cnn = new SqlConnection(cs);
+            cnn.Open();
 
+            HttpCookie c = Request.Cookies["email"];
+            email = c.Value;
+
+            string set_zero = "UPDATE quiz_table SET quiz = 0 WHERE email = '" + email + "'";
+            SqlCommand sqlCmd = new SqlCommand(set_zero, cnn);
+            sqlCmd.ExecuteNonQuery();
         }
 
         protected void Next_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Home.aspx");
-        }
-
-        protected void Previous_Click(object sender, EventArgs e)
-        {
-
-        }
+            if (radioButton1.Selected == true)
+            {
+                string ans = "UPDATE quiz_table SET quiz = quiz + 1 WHERE email = '" + email + "'";
+                SqlCommand sqlCmd = new SqlCommand(ans, cnn);
+                sqlCmd.ExecuteNonQuery();
+            }
+            cnn.Close();
+        }        
     }
 }

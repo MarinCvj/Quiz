@@ -40,5 +40,32 @@ namespace Quiz_web
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Quiz_web.Controls.Navigation Navigation;
+
+        /// <summary>
+        /// radioButton1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListItem radioButton1;
+
+        /// <summary>
+        /// radioButton2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListItem radioButton2;
+
+        /// <summary>
+        /// radioButton3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListItem radioButton3;
     }
 }
