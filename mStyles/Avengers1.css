@@ -43,6 +43,11 @@ div.question {
     top: 80%;
     left: 10%;
 }
+.avengers1_quit_button {
+    position: absolute;
+    top: 80%;
+    left: 42%;
+}
 h1.score1 {
     position: absolute;
     top: 20%;

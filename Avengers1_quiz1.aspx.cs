@@ -13,7 +13,6 @@ namespace Quiz_web
     {
         SqlConnection cnn;
         string email;
-
         protected void Page_Load(object sender, EventArgs e)
         {
             string cs = ConfigurationManager.ConnectionStrings["MyDB"].ConnectionString;
@@ -22,10 +21,6 @@ namespace Quiz_web
 
             HttpCookie c = Request.Cookies["email"];
             email = c.Value;
-
-            string set_zero = "UPDATE quiz_table SET quiz = 0 WHERE email = '" + email + "'";
-            SqlCommand sqlCmd = new SqlCommand(set_zero, cnn);
-            sqlCmd.ExecuteNonQuery();
         }
 
         protected void Next_Click(object sender, EventArgs e)
@@ -38,6 +33,11 @@ namespace Quiz_web
             }
             Response.Redirect("Avengers1_quiz2.aspx");
             cnn.Close();
+        }
+
+        protected void Quit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Quizes.aspx");
         }
     }
 }

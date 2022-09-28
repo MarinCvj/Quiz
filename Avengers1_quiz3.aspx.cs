@@ -39,5 +39,10 @@ namespace Quiz_web
         {
             Response.Redirect("Avengers1_quiz2.aspx");
         }
+
+        protected void Quit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Quizes.aspx");
+        }
     }
 }

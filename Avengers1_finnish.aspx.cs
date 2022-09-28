@@ -27,5 +27,10 @@ namespace Quiz_web
             string correct = sqlCmd.ExecuteScalar().ToString();
             lbl_score.Text = correct;
         }
+
+        protected void Home_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
     }
 }

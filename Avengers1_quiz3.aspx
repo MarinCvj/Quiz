@@ -24,6 +24,7 @@
 
             <asp:LinkButton runat="server" CssClass="avengers1_next_button w3-button w3-right w3-green" Text="Next" OnClick="Next_Click" ></asp:LinkButton>
             <asp:LinkButton runat="server" CssClass="avengers1_previous_button w3-button w3-left w3-yellow" Text="Previous" OnClick="Previous_Click" ></asp:LinkButton>
+            <asp:LinkButton runat="server" CssClass="avengers1_quit_button w3-button w3-right w3-red" Text="Quit quiz" OnClick="Quit_Click"></asp:LinkButton>
         </div>
     </form>
 </body>

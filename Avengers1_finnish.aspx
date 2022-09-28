@@ -15,6 +15,7 @@
         
         <div class="question w3-round-xlarge">
             <h1 class="score1"> Your score is: <br /><br /> <asp:Label runat="server" ID="lbl_score"></asp:Label> / 5 </h1>            
+            <asp:LinkButton runat="server" CssClass="avengers1_quit_button w3-button w3-right w3-blue" Text="Home" OnClick="Home_Click"></asp:LinkButton>
         </div>
     </form>
 </body>
