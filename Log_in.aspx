@@ -14,7 +14,7 @@
         <uc1:Navigation runat="server" id="Navigation" />
 
         <div class="w3-container">
-            <h1> Log in into your account. </h1>
+            <h1 class="log_into_acc"> Log in into your account. </h1>
 
             <p class="email"> Email: </p>
             <asp:TextBox runat="server" id="email" TextMode="Email" CssClass="email_box w3-hover-green" placeholder="email"></asp:TextBox>

@@ -9,19 +9,19 @@ body {
     font-family: Graphik,sans-serif;
     text-align: center;
 }
-h1 {
+.log_into_acc {
     position: absolute;
     top: 20%;
     left: 41%;
 }
 
-p.email {
+.email {
     position: absolute;
     top: 30%;
     left: 44%;
 }
 
-p.password {
+.password {
     position: absolute;
     top: 40%;
     left: 44%;

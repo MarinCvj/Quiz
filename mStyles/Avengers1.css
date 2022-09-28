@@ -6,7 +6,7 @@ body {
     background-color: #3d3939;
     font-family: sans-serif;
 }
-div.question {
+.question {
     color:black;
     max-width:100%;
     width: 30%;
@@ -48,7 +48,7 @@ div.question {
     top: 80%;
     left: 42%;
 }
-h1.score1 {
+.score1 {
     position: absolute;
     top: 20%;
     left: 30%;

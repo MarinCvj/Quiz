@@ -14,7 +14,7 @@
         <uc1:Navigation runat="server" id="Navigation" />
 
         <div class="w3-container">
-            <h1> Create your new account. </h1>
+            <h1 class="create_new_acc"> Create your new account. </h1>
 
             <p class="email"> Email: </p>
             <asp:TextBox runat="server" id="email" TextMode="Email" CssClass="email_box w3-hover-green" placeholder="email"></asp:TextBox>

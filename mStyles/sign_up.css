@@ -12,17 +12,17 @@ body {
 div {
     border: 3px solid double;
 }
-h1 {
+.create_new_acc {
     position: absolute;
     top: 20%;
     left: 41%;
 }
-p.email {
+.email {
     position: absolute;
     top: 30%;
     left: 44%;
 }
-p.password {
+.password {
     position: absolute;
     top: 40%;
     left: 44%;
