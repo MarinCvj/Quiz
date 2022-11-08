@@ -67,12 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Avengers1_finnish.aspx" />
-    <Content Include="Avengers1_quiz1.aspx" />
-    <Content Include="Avengers1_quiz2.aspx" />
-    <Content Include="Avengers1_quiz3.aspx" />
-    <Content Include="Avengers1_quiz4.aspx" />
-    <Content Include="Avengers1_quiz5.aspx" />
     <Content Include="Controls\Includes.ascx" />
     <Content Include="Controls\Navigation.ascx" />
     <Content Include="images\DC\bat_vs_sup.jpg" />
@@ -85,34 +79,14 @@
     <Content Include="images\marvel\avengers4.jpg" />
     <Content Include="images\versus.png" />
     <Content Include="Log_in.aspx" />
-    <Content Include="mDC_styles\aquaman.css" />
-    <Content Include="mDC_styles\batman.css" />
-    <Content Include="mDC_styles\cyborg.css" />
-    <Content Include="mDC_styles\flash.css" />
-    <Content Include="mDC_styles\malcom.css" />
-    <Content Include="mDC_styles\superman.css" />
-    <Content Include="mDC_styles\wonder_woman.css" />
+    <Content Include="main.css" />
     <Content Include="images\DC\aquaman.jpg" />
     <Content Include="images\DC\batman.jpg" />
     <Content Include="images\DC\cyborg.jpg" />
     <Content Include="images\DC\flash.jpg" />
     <Content Include="images\DC\superman.jpg" />
     <Content Include="images\DC\wonder_woman.jpg" />
-    <Content Include="marvel_styles\black_widow.css" />
-    <Content Include="marvel_styles\cap.css" />
-    <Content Include="marvel_styles\Hawkeye.css" />
     <Content Include="Home.aspx" />
-    <Content Include="mquiz_styles\avengers1.css" />
-    <Content Include="mquiz_styles\avengers2.css" />
-    <Content Include="mquiz_styles\avengers3.css" />
-    <Content Include="mquiz_styles\avengers4.css" />
-    <Content Include="mquiz_styles\bat_vs_sup.css" />
-    <Content Include="mquiz_styles\green_lantern.css" />
-    <Content Include="mquiz_styles\justice_league.css" />
-    <Content Include="mquiz_styles\shazam.css" />
-    <Content Include="mStyles\Avengers1.css" />
-    <Content Include="mStyles\home.css" />
-    <Content Include="marvel_styles\hulk.css" />
     <Content Include="images\DC\malcom.jpg" />
     <Content Include="images\marvel\Black_Widow.jpg" />
     <Content Include="images\marvel\cap.jpg" />
@@ -123,61 +97,14 @@
     <Content Include="images\marvel\marvel_logo.png" />
     <Content Include="images\marvel\stanlee.jpeg" />
     <Content Include="images\marvel\Thor.jpg" />
-    <Content Include="marvel_styles\iron_man.css" />
     <Content Include="mStyles\log_in.css" />
-    <Content Include="mStyles\nav_bar.css" />
-    <Content Include="marvel_styles\stanlee.css" />
-    <Content Include="marvel_styles\Thor.css" />
-    <Content Include="mStyles\quizes.css" />
+    <Content Include="Quiz.aspx" />
     <Content Include="Quizes.aspx" />
     <Content Include="Sign_up.aspx" />
     <Content Include="mStyles\sign_up.css" />
-    <Content Include="mStyles\versus.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Avengers1_finnish.aspx.cs">
-      <DependentUpon>Avengers1_finnish.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Avengers1_finnish.aspx.designer.cs">
-      <DependentUpon>Avengers1_finnish.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Avengers1_quiz1.aspx.cs">
-      <DependentUpon>Avengers1_quiz1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Avengers1_quiz1.aspx.designer.cs">
-      <DependentUpon>Avengers1_quiz1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Avengers1_quiz2.aspx.cs">
-      <DependentUpon>Avengers1_quiz2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Avengers1_quiz2.aspx.designer.cs">
-      <DependentUpon>Avengers1_quiz2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Avengers1_quiz3.aspx.cs">
-      <DependentUpon>Avengers1_quiz3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Avengers1_quiz3.aspx.designer.cs">
-      <DependentUpon>Avengers1_quiz3.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Avengers1_quiz4.aspx.cs">
-      <DependentUpon>Avengers1_quiz4.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Avengers1_quiz4.aspx.designer.cs">
-      <DependentUpon>Avengers1_quiz4.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Avengers1_quiz5.aspx.cs">
-      <DependentUpon>Avengers1_quiz5.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Avengers1_quiz5.aspx.designer.cs">
-      <DependentUpon>Avengers1_quiz5.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Controls\Includes.ascx.cs">
       <DependentUpon>Includes.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -207,6 +134,13 @@
       <DependentUpon>Log_in.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quiz.aspx.cs">
+      <DependentUpon>Quiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quiz.aspx.designer.cs">
+      <DependentUpon>Quiz.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Quizes.aspx.cs">
       <DependentUpon>Quizes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

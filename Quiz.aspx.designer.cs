@@ -11,7 +11,7 @@ namespace Quiz_web
 {
 
 
-    public partial class Avengers1_quiz2
+    public partial class Quiz
     {
 
         /// <summary>
@@ -42,30 +42,21 @@ namespace Quiz_web
         protected global::Quiz_web.Controls.Navigation Navigation;
 
         /// <summary>
-        /// radioButton1 control.
+        /// rptQuizQuestion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListItem radioButton1;
+        protected global::System.Web.UI.WebControls.Repeater rptQuizQuestion;
 
         /// <summary>
-        /// radioButton2 control.
+        /// RadioListAnswers control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListItem radioButton2;
-
-        /// <summary>
-        /// radioButton3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListItem radioButton3;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioListAnswers;
     }
 }

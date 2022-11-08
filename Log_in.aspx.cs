@@ -24,7 +24,7 @@ namespace Quiz_web
             string email_text = email.Text;
             string password_text = password.Text;
 
-            string user_get = "SELECT * FROM quiz_table WHERE email='" + email_text + "'" + "AND password='" + password_text + "'";
+            string user_get = "SELECT * FROM quiz_users WHERE email='" + email_text + "'" + "AND password='" + password_text + "'";
             SqlCommand sqlCmd = new SqlCommand(user_get, cnn);
 
             using (SqlDataReader sqlReader = sqlCmd.ExecuteReader())

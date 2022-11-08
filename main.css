@@ -1,0 +1,260 @@
+﻿* {
+    margin: 0 0;
+    padding: 0 0;
+}
+body {
+    background-color: #3d3939;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+/*NAVIGATION BAR*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7d6f6f;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.nav li {
+    text-align: center;
+    display: inline-block;
+}
+    .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+        .nav li a:hover {
+            background-color: #2b30ba;
+        }
+.active {
+    background-color: #b32b2b;
+}
+/* HOME */
+/*MARVEL SIDE*/
+.h1center {
+    margin: 0;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.pcenter {
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.img1 {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    width: 25%;
+}
+.marvel {
+    display: none;
+    border: 2px solid #b32b2b;
+    background-color: #b32b2b;
+    max-width: 20%;
+    position: absolute;
+    top: 145px;
+    left: 550px;
+}
+.ex1:hover p {
+    display: block;
+}
+.ex1:hover img {
+    opacity: 0.2;
+}
+.img2 {
+    display: block;
+    position: absolute;
+    top: 95px;
+    right: 600px;
+    max-width: 15%;
+}
+.dc {
+    display: none;
+    border: 2px solid #2b30ba;
+    background-color: #2b30ba;
+    max-width: 10%;
+    position: absolute;
+    top: 130px;
+    left: 1070px;
+}
+.ex2:hover p {
+    display: block;
+}
+.ex2:hover img {
+    opacity: 0.2;
+}
+.container_marvel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+    flex: 1 1;
+    height: 750px;
+    width: 400px;
+    margin-top: 500px;
+    margin-left: 50px;
+    float: left;
+}
+.col_marvel {
+    width: 200px;
+    height: 100%;
+}
+p.apear {
+    background-color: #b32b2b;
+    border: 2px solid #b32b2b;
+    display: none;
+    width: 70%;
+    border-radius: 10px;
+}
+.img_marvel {
+    width: 170px;
+    border-radius: 10px;
+}
+div.apear:hover p {
+    display: block;
+}
+div.apear:hover img {
+    opacity: 0.2;
+}
+/*STAN LEE*/
+.stan_lee {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 15%;
+    border-radius: 10px;
+}
+/*DC SIDE*/
+/*MALCOM*/
+.malcom {
+    display: block;
+    position: absolute;
+    top: 130px;
+    right: 120px;
+    max-width: 20%;
+}
+.container_dc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+    flex: 1 1;
+    height: 750px;
+    width: 400px;
+    margin-top: 500px;
+    margin-right: 50px;
+    float: right;
+}
+.col_dc {
+    width: 200px;
+    height: 100%;
+}
+.img_dc {
+    width: 170px;
+    border-radius: 10px;
+}
+p.apear2 {
+    background-color: #2b30ba;
+    border: 2px solid #2b30ba;
+    display: none;
+    width: 70%;
+    border-radius: 10px;
+}
+div.apear2:hover p {
+    display: block;
+}
+div.apear2:hover img {
+    opacity: 0.2;
+}
+/*VERSUS*/
+.versus {
+    position: absolute;
+    top: 750px;
+    right: 700px;
+    max-width: 100%;
+    transition: transform 1s;
+}
+.versus:hover {
+    transform: scale(1.5);
+}
+/* QUIZ */
+.list_quiz {
+    margin: 2rem 0 2rem 0;
+}
+.question {
+    color: black;
+    max-width: 100%;
+    width: 30%;
+    max-height: 100%;
+    height: 40%;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    border: 2px solid black;
+}
+.ans1 {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+.ans2 {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+.ans3 {
+    position: absolute;
+    top: 60%;
+    left: 43%;
+}
+.next_button {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+.previous_button {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+.quit_button {
+    position: absolute;
+    top: 80%;
+    left: 42%;
+}
+.score1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+/*QUIZES*/
+.quizes-list {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.quizes-list img {
+    max-width: 20%;
+}

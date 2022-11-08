@@ -17,61 +17,23 @@
         <h2> Can you pass the whole quiz without one mistake? </h2>
         <h3> Go and try it. </h3>
 
-        <div class="avengers1">
-            <a href="Avengers1_quiz1.aspx">
-                <asp:Image runat="server" ImageUrl="~/images/marvel/avengers1.jpg" CssClass="avengers1 w3-round-xlarge" />
-                <p class="avengers1 w3-round-xlarge"> The Avengers quiz. </p>
-            </a>
-        </div>
+        <asp:Repeater ID="rptQuiz" runat="server" OnItemDataBound="rptQuiz_ItemDataBound">
+            <HeaderTemplate>
+                <ul class="quizes-list">
+            </HeaderTemplate>
+            <ItemTemplate>
+                <li class="quizes-list">
+                    <asp:HyperLink runat="server" ID="quizLink" NavigateUrl="quiz.aspx">
+                        <asp:Image ID="quizImage" runat="server" ImageUrl="~/images/marvel/avengers1.jpg" CssClass="w3-round-xlarge" />
+                        <p class="w3-round-xlarge"><asp:Literal runat="server" ID="litName"></asp:Literal></p>
+                    </asp:HyperLink>
+                </li>
+            </ItemTemplate>
+            <FooterTemplate>
+                </ul>
+            </FooterTemplate>
+        </asp:Repeater>
 
-        <div class="avengers2">
-            <a href="Home.aspx">
-                <asp:Image runat="server" ImageUrl="~/images/marvel/avengers2.jpg" CssClass="avengers2 w3-round-xlarge" />
-                <p class="avengers2 w3-round-xlarge"> The Avengers age of Ultron quiz. </p>
-            </a>
-        </div>
-
-        <div class="avengers3">
-            <a href="Home.aspx">
-                <asp:Image runat="server" ImageUrl="~/images/marvel/avengers3.jpg" CssClass="avengers3 w3-round-xlarge" />
-                <p class="avengers3 w3-round-xlarge"> The Avengers Infinity war quiz. </p>
-            </a>
-        </div>
-
-        <div class="avengers4">
-            <a href="Home.aspx">
-                <asp:Image runat="server" ImageUrl="~/images/marvel/avengers4.jpg" CssClass="avengers4 w3-round-xlarge" />
-                <p class="avengers4 w3-round-xlarge"> The Avengers Endgame quiz. </p>
-            </a>
-        </div>
-
-        <div class="justice_league">
-            <a href="Home.aspx">
-                <asp:Image runat="server" ImageUrl="~/images/DC/justice_league.jpg" CssClass="justice_league w3-round-xlarge" />
-                <p class="justice_league w3-round-xlarge"> Justice league quiz. </p>
-            </a>
-        </div>
-
-        <div class="shazam">
-            <a href="Home.aspx">
-                <asp:Image runat="server" ImageUrl="~/images/DC/shazam.jpg" CssClass="shazam w3-round-xlarge" />
-                <p class="shazam w3-round-xlarge"> Shazam quiz. </p>
-            </a>
-        </div>
-
-        <div class="bat_vs_sup">
-            <a href="Home.aspx">
-                <asp:Image runat="server" ImageUrl="~/images/DC/bat_vs_sup.jpg" CssClass="bat_vs_sup w3-round-xlarge" />
-                <p class="bat_vs_sup w3-round-xlarge"> Batman vs superman quiz. </p>
-            </a>
-        </div>
-
-        <div class="green_lantern">
-            <a href="Home.aspx">
-                <asp:Image runat="server" ImageUrl="~/images/DC/green_lantern.jpeg" CssClass="green_lantern w3-round-xlarge" />
-                <p class="green_lantern w3-round-xlarge"> Green lantern quiz. </p>
-            </a>
-        </div>
     </form>
 </body>
 </html>
