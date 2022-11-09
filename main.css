@@ -126,6 +126,7 @@ p.apear {
 .img_marvel {
     width: 170px;
     border-radius: 10px;
+    margin: 10px;
 }
 div.apear:hover p {
     display: block;
@@ -149,6 +150,7 @@ div.apear:hover img {
     top: 130px;
     right: 120px;
     max-width: 20%;
+    border-radius: 10px;
 }
 .container_dc {
     display: flex;
@@ -170,6 +172,7 @@ div.apear:hover img {
 .img_dc {
     width: 170px;
     border-radius: 10px;
+    margin: 10px;
 }
 p.apear2 {
     background-color: #2b30ba;
@@ -196,55 +199,49 @@ div.apear2:hover img {
     transform: scale(1.5);
 }
 /* QUIZ */
-.list_quiz {
-    margin: 2rem 0 2rem 0;
-}
 .question {
-    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 500px;
     max-width: 100%;
-    width: 30%;
     max-height: 100%;
-    height: 40%;
+    color: black;
     background-color: white;
-    position: absolute;
-    top: 30%;
-    left: 35%;
     border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 600px;
 }
-.ans1 {
-    position: absolute;
-    top: 40%;
-    left: 43%;
+.ans {
+    list-style: none;
+    text-align: left;
 }
-.ans2 {
-    position: absolute;
-    top: 50%;
-    left: 43%;
+.previous {
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 10px;
+    transition: transform 1s;
+    float: left;
+    text-align: left;
 }
-.ans3 {
-    position: absolute;
-    top: 60%;
-    left: 43%;
+.previous:hover {
+    transform: scale(1.2);
 }
-.next_button {
-    position: absolute;
-    top: 80%;
-    left: 80%;
+.next {
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    transition: transform 1s;
 }
-.previous_button {
-    position: absolute;
-    top: 80%;
-    left: 10%;
-}
-.quit_button {
-    position: absolute;
-    top: 80%;
-    left: 42%;
-}
-.score1 {
-    position: absolute;
-    top: 20%;
-    left: 30%;
+.next:hover {
+    transform: scale(1.2);
 }
 /*QUIZES*/
 .quizes-list {
@@ -254,7 +251,22 @@ div.apear2:hover img {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 800px;
 }
-.quizes-list img {
-    max-width: 20%;
-}
+    .quizes-list img {
+        max-width: 30%;
+        border-radius: 20px;
+        float: left;
+        margin: 10px;
+    }
+    .quizes-list p {
+        border: 1px solid white;
+        background-color: black;
+        border-radius: 20px;
+        padding: 5px;
+        display: none;
+        float: left;
+    }
+    .quizes-list li {
+        float: left;
+    }

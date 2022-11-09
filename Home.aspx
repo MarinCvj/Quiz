@@ -61,8 +61,7 @@
                 <div class="apear">
                     <asp:Image ID="Image8" runat="server" ImageUrl="~/images/marvel/hulk.jpg" CssClass="img_marvel" />
                     <p class="apear">  Dr. Robert Bruce Banner, has an alter ego Hulk, a green-skinned, 
-                        muscular humanoid possessing a limitless degree of physical strength.</p>
-                    
+                        muscular humanoid possessing a limitless degree of physical strength.</p>                    
                 </div>
             </div>
         </div>
@@ -79,14 +78,14 @@
                     <p class="apear2"> Batman is the alias of Bruce Wayne, a wealthy American philanthropist who resides in Gotham City.</p>
                 </div>
                 <div class="apear2">
-                    <asp:Image ID="Image14" runat="server" ImageUrl="~/images/DC/wonder_woman.jpg" CssClass="img_dc" />
-                    <p class="apear2"> Wonder Woman lived as an Amazon, along with superhuman powers as gifts by the Greek gods.
-                        Biological daughter of Zeus and Hippolyta.</p>
-                </div>
-                <div class="apear2">
                     <asp:Image ID="Image16" runat="server" ImageUrl="~/images/DC/cyborg.jpg" CssClass="img_dc" />
                     <p class="apear2"> Victor Stone is Cyborg, a high school student merged with a Mother Box when he was injured.</p>
                 </div>
+                <div class="apear2">
+                    <asp:Image ID="Image14" runat="server" ImageUrl="~/images/DC/wonder_woman.jpg" CssClass="img_dc" />
+                    <p class="apear2"> Wonder Woman lived as an Amazon, along with superhuman powers as gifts by the Greek gods.
+                        Biological daughter of Zeus and Hippolyta.</p>
+                </div>                
             </div>
             <div class="col_dc">
                 <div class="apear2">

@@ -21,7 +21,13 @@ namespace Quiz_web
             cnn.Open();
 
             HttpCookie c = Request.Cookies["email"];
-            email = c.Value;
+            if (c.Value == null)
+            {
+                Response.Redirect("~/Home.aspx");
+            }else
+            {
+                email = c.Value;
+            }            
 
             string cmdString = "SELECT * FROM quiz ORDER BY sortorder";
             SqlCommand sqlCmd = new SqlCommand(cmdString, cnn);

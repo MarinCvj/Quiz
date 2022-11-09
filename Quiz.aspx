@@ -13,20 +13,18 @@
     <form id="form1" runat="server">
        <uc1:Navigation runat="server" id="Navigation" />       
 
-       <div class="question w3-round-xlarge">
+       <div class="question">
+            <asp:Repeater ID="rptQuizQuestion" runat="server" OnItemDataBound="RptQuizQuestion_ItemDataBound">
+                <ItemTemplate>                        
+                    <p><asp:Literal runat="server" ID="litName"></asp:Literal></p>
+                </ItemTemplate>
+            </asp:Repeater>
 
-        <asp:Repeater ID="rptQuizQuestion" runat="server" OnItemDataBound="RptQuizQuestion_ItemDataBound">
-            <ItemTemplate>                        
-                <p class="w3-round-xlarge"><asp:Literal runat="server" ID="litName"></asp:Literal></p>
-            </ItemTemplate>
-        </asp:Repeater>
+            <asp:RadioButtonList runat="server" ID="RadioListAnswers" RepeatLayout="UnorderedList" CssClass="ans"></asp:RadioButtonList>
 
-        <asp:RadioButtonList runat="server" ID="RadioListAnswers" RepeatLayout="UnorderedList"></asp:RadioButtonList>
-
-        <asp:LinkButton runat="server" CssClass="w3-button w3-right w3-yellow" Text="Previous" OnClick="Previous_Click"></asp:LinkButton>
-        <asp:LinkButton runat="server" CssClass="w3-button w3-right w3-blue" Text="Next" OnClick="Next_Click"></asp:LinkButton>
+            <asp:LinkButton runat="server" CssClass="previous" Text="Previous" OnClick="Previous_Click"></asp:LinkButton>
+            <asp:LinkButton runat="server" CssClass="next" Text="Next" OnClick="Next_Click"></asp:LinkButton>
        </div>
-
     </form>
 </body>
 </html>

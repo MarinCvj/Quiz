@@ -22,10 +22,10 @@
                 <ul class="quizes-list">
             </HeaderTemplate>
             <ItemTemplate>
-                <li class="quizes-list">
+                <li>
                     <asp:HyperLink runat="server" ID="quizLink" NavigateUrl="quiz.aspx">
-                        <asp:Image ID="quizImage" runat="server" ImageUrl="~/images/marvel/avengers1.jpg" CssClass="w3-round-xlarge" />
-                        <p class="w3-round-xlarge"><asp:Literal runat="server" ID="litName"></asp:Literal></p>
+                        <asp:Image ID="quizImage" runat="server"/>
+                        <p><asp:Literal runat="server" ID="litName"></asp:Literal></p>
                     </asp:HyperLink>
                 </li>
             </ItemTemplate>
@@ -33,7 +33,6 @@
                 </ul>
             </FooterTemplate>
         </asp:Repeater>
-
     </form>
 </body>
 </html>
