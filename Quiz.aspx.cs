@@ -78,5 +78,10 @@ namespace Quiz_web
         {
             Response.Redirect("https://localhost:44382/quiz.aspx?quiz_id=1&question_no=2");
         }
+
+        protected void Quit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://localhost:44382/quiz.aspx");
+        }
     }
 }

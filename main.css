@@ -220,18 +220,20 @@ div.apear2:hover img {
     list-style: none;
     text-align: left;
 }
+.row_button {
+    flex-direction: row;
+}
 .previous {
-    border: 1px solid yellow;
+    color: white;
+    border: 1px solid #288e52;
     border-radius: 5px;
-    background-color: yellow;
+    background-color: #288e52;
     padding: 10px;
     transition: transform 1s;
-    float: left;
-    text-align: left;
 }
-.previous:hover {
-    transform: scale(1.2);
-}
+    .previous:hover {
+        transform: scale(1.2);
+    }
 .next {
     color: white;
     border: 1px solid cornflowerblue;
@@ -240,9 +242,20 @@ div.apear2:hover img {
     padding: 10px;
     transition: transform 1s;
 }
-.next:hover {
-    transform: scale(1.2);
+    .next:hover {
+        transform: scale(1.2);
+    }
+.quit {
+    color: white;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    background-color: darkred;
+    padding: 10px;
+    transition: transform 1s;
 }
+    .quit:hover {
+        transform: scale(1.2);
+    }
 /*QUIZES*/
 .quizes-list {
     list-style: none;

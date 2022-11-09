@@ -13,7 +13,7 @@
     <form id="form1" runat="server">
        <uc1:Navigation runat="server" id="Navigation" />       
 
-       <div class="question">
+        <div class="question">
             <asp:Repeater ID="rptQuizQuestion" runat="server" OnItemDataBound="RptQuizQuestion_ItemDataBound">
                 <ItemTemplate>                        
                     <p><asp:Literal runat="server" ID="litName"></asp:Literal></p>
@@ -22,9 +22,12 @@
 
             <asp:RadioButtonList runat="server" ID="RadioListAnswers" RepeatLayout="UnorderedList" CssClass="ans"></asp:RadioButtonList>
 
-            <asp:LinkButton runat="server" CssClass="previous" Text="Previous" OnClick="Previous_Click"></asp:LinkButton>
-            <asp:LinkButton runat="server" CssClass="next" Text="Next" OnClick="Next_Click"></asp:LinkButton>
-       </div>
+            <div class="row_button">
+                <asp:LinkButton runat="server" CssClass="previous" Text="Previous" OnClick="Previous_Click"></asp:LinkButton>
+                <asp:LinkButton runat="server" CssClass="quit" Text="Quit" OnClick="Quit_Click"></asp:LinkButton>
+                <asp:LinkButton runat="server" CssClass="next" Text="Next" OnClick="Next_Click"></asp:LinkButton>
+            </div>
+        </div>
     </form>
 </body>
 </html>
