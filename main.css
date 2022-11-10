@@ -205,16 +205,17 @@ div.apear2:hover img {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 700px;
     height: 500px;
-    max-width: 100%;
+    max-width: 40%;
     max-height: 100%;
     color: black;
     background-color: white;
     border: 2px solid black;
     border-radius: 20px;
     margin-top: 150px;
-    margin-left: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
 }
 .ans {
     list-style: none;
@@ -222,8 +223,10 @@ div.apear2:hover img {
 }
 .row_button {
     flex-direction: row;
+    width: 90%;
 }
 .previous {
+    float: left;
     color: white;
     border: 1px solid #288e52;
     border-radius: 5px;
@@ -235,6 +238,7 @@ div.apear2:hover img {
         transform: scale(1.2);
     }
 .next {
+    float: right;
     color: white;
     border: 1px solid cornflowerblue;
     border-radius: 5px;
@@ -251,6 +255,7 @@ div.apear2:hover img {
     border-radius: 5px;
     background-color: darkred;
     padding: 10px;
+    vertical-align: sub;
     transition: transform 1s;
 }
     .quit:hover {
