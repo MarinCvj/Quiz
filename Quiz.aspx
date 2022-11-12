@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-       <uc1:Navigation runat="server" id="Navigation" />       
+       <uc1:Navigation runat="server" id="Navigation" />
 
         <div class="question">
             <asp:Repeater ID="rptQuizQuestion" runat="server" OnItemDataBound="RptQuizQuestion_ItemDataBound">

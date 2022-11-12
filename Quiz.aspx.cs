@@ -14,9 +14,14 @@ namespace Quiz_web
     {
         SqlConnection cnn;
         string email;
+        string QuestionNumber;
+        string QuizID;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
+           QuizID = Request.QueryString["quiz_id"];
+           QuestionNumber = Request.QueryString["question_no"];
+
+           if(!IsPostBack)
             {
                 string cs = ConfigurationManager.ConnectionStrings["MyDB"].ConnectionString;
                 cnn = new SqlConnection(cs);
@@ -25,8 +30,6 @@ namespace Quiz_web
                 HttpCookie c = Request.Cookies["email"];
                 email = c.Value;
 
-                string QuizID = Request.QueryString["quiz_id"];
-                string QuestionNumber = Request.QueryString["question_no"];
 
                 string cmdString = "" +
                     "SELECT * FROM quiz_question WHERE id_quiz=" + QuizID +" AND sortorder=" + QuestionNumber + " ORDER BY sortorder;" +
@@ -34,7 +37,7 @@ namespace Quiz_web
                     "   INNER JOIN quiz_question qq ON q.quiz_id = qq.id_quiz" +
                     "   INNER JOIN quiz_answer a ON qq.question_id = a.id_question" +
                     "   WHERE q.quiz_id = " + QuizID +
-                    "        and qq.sortorder = " + QuestionNumber +
+                    "        AND qq.sortorder = " + QuestionNumber +
                     "   ORDER BY sortorder";
                 SqlCommand sqlCmd = new SqlCommand(cmdString, cnn);
 
@@ -51,7 +54,6 @@ namespace Quiz_web
                     ListItem li = new ListItem(ds.Tables[1].Rows[i]["answer"].ToString(), ds.Tables[1].Rows[i]["answer_id"].ToString());
                     RadioListAnswers.Items.Add(li);
                 }
-
                 cnn.Close();
             }
         }
@@ -71,17 +73,33 @@ namespace Quiz_web
 
         protected void Previous_Click(object sender, EventArgs e)
         {
-            Response.Redirect("https://localhost:44382/quiz.aspx");
+            int intQuestionNumber = Convert.ToInt32(QuestionNumber);
+            if (intQuestionNumber == 1)
+            {
+                Response.Redirect("~/home.aspx");
+            }else
+            {
+                intQuestionNumber--;
+                Response.Redirect("~/quiz.aspx?quiz_id=" + QuizID + "&question_no=" + intQuestionNumber.ToString());
+            }            
         }
 
         protected void Next_Click(object sender, EventArgs e)
         {
-            Response.Redirect("https://localhost:44382/quiz.aspx?quiz_id=1&question_no=2");
+            int intQuestionNumber = Convert.ToInt32(QuestionNumber);
+            intQuestionNumber++;
+            if (intQuestionNumber >= 6)
+            {
+                Response.Redirect("~/home.aspx");
+            }else
+            {
+                Response.Redirect("~/quiz.aspx?quiz_id=" + QuizID + "&question_no=" + intQuestionNumber.ToString());
+            }
         }
 
         protected void Quit_Click(object sender, EventArgs e)
         {
-            Response.Redirect("https://localhost:44382/quiz.aspx");
+            Response.Redirect("~/quizes.aspx");
         }
     }
 }
