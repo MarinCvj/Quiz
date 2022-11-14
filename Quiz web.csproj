@@ -97,11 +97,9 @@
     <Content Include="images\marvel\marvel_logo.png" />
     <Content Include="images\marvel\stanlee.jpeg" />
     <Content Include="images\marvel\Thor.jpg" />
-    <Content Include="mStyles\log_in.css" />
     <Content Include="Quiz.aspx" />
     <Content Include="Quizes.aspx" />
     <Content Include="Sign_up.aspx" />
-    <Content Include="mStyles\sign_up.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

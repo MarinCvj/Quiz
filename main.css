@@ -37,6 +37,58 @@ ul.nav {
 .active {
     background-color: #b32b2b;
 }
+/*Account*/
+.container_acc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1;
+    height: 500px;
+    max-height: 100%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.email_box {
+    width: 15%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 100%;
+    text-align: center;
+    transition: all 1s;
+}
+    .email_box:focus {
+        width: 20%;
+    }
+.password_box {
+    width: 15%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 100%;
+    text-align: center;
+    transition: all 1s;
+}
+    .password_box:focus {
+        width: 20%;
+    }
+.submit_acc_button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: transform 1s;
+}
+    .submit_acc_button:hover {
+        transform: scale(1.3);
+    }
 /* HOME */
 /*MARVEL SIDE*/
 .h1center {
@@ -61,6 +113,7 @@ ul.nav {
     top: 120px;
     left: 500px;
     width: 25%;
+    border-radius: 10px;
 }
 .marvel {
     display: none;
@@ -70,6 +123,7 @@ ul.nav {
     position: absolute;
     top: 145px;
     left: 550px;
+    border-radius: 10px;
 }
 .ex1:hover p {
     display: block;
@@ -83,6 +137,7 @@ ul.nav {
     top: 95px;
     right: 600px;
     max-width: 15%;
+    border-radius: 10px;
 }
 .dc {
     display: none;
@@ -92,6 +147,7 @@ ul.nav {
     position: absolute;
     top: 130px;
     left: 1070px;
+    border-radius: 10px;
 }
 .ex2:hover p {
     display: block;

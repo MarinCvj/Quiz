@@ -13,16 +13,16 @@
     <form id="form1" runat="server">
         <uc1:Navigation runat="server" id="Navigation" />
 
-        <div class="w3-container">
-            <h1 class="log_into_acc"> Log in into your account. </h1>
+        <div class="container_acc">
+            <h1> Log in into your account. </h1>
 
-            <p class="email"> Email: </p>
-            <asp:TextBox runat="server" id="email" TextMode="Email" CssClass="email_box w3-hover-green" placeholder="email"></asp:TextBox>
+            <p> Email: </p>
+            <asp:TextBox runat="server" id="email" TextMode="Email" CssClass="email_box" placeholder="email"></asp:TextBox>
 
-            <p class="password"> Password: </p>
-            <asp:TextBox runat="server" id="password" TextMode="Password" CssClass="password_box w3-hover-red" placeholder="password"></asp:TextBox>
+            <p> Password: </p>
+            <asp:TextBox runat="server" id="password" TextMode="Password" CssClass="password_box" placeholder="password"></asp:TextBox>
 
-            <asp:Button runat="server" Text="Submit" CssClass="button button1" OnClick="Submit_Click"/>
+            <asp:Button runat="server" Text="Submit" CssClass="submit_acc_button" OnClick="Submit_Click"/>
         </div>
     </form>
 </body>
