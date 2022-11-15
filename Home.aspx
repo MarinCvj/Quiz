@@ -11,23 +11,24 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <uc1:Navigation runat="server" id="Navigation" />
-
-        <h1 class="h1center"> Welcome to Marvel and DC quiz! </h1>
-        <b class="pcenter"> Here you can see if you are a true fan of the MCU and DC. </b>
+        <uc1:Navigation runat="server" id="Navigation" />        
+        <div class="container_md">
+            <div class="apear">
+                <asp:Image ID="Image1" runat="server" ImageUrl="images/marvel/marvel_logo.png" CssClass="img1" />
+                <p class="apear"> The Marvel Cinematic Universe (MCU) is an American media franchise and 
+                    shared universe centered on a series of superhero films produced by Marvel Studios. 
+                    The films are based on characters that appear in American comic books published by Marvel Comics.</p>
+            </div>
+            <div class="apear2">
+                <asp:Image ID="Image2" runat="server" ImageUrl="images/DC/dc_logo.jpg" CssClass="img2" />
+                <p class="apear2"> DC Comics, Inc. (or simply DC) is an American comic book publisher and 
+                    the flagship unit of DC Entertainment, a subsidiary of Warner Bros. </p>
+            </div>
+        </div>
         
-        <br />
-        <div class="ex1">
-            <asp:Image ID="Image1" runat="server" ImageUrl="images/marvel/marvel_logo.png" CssClass="img1 w3-round-xxlarge" />
-            <p class="marvel w3-round-xxlarge"> The Marvel Cinematic Universe (MCU) is an American media franchise and 
-                shared universe centered on a series of superhero films produced by Marvel Studios. 
-                The films are based on characters that appear in American comic books published by Marvel Comics.</p>
-        </div>
-        <div class="ex2">
-            <asp:Image ID="Image2" runat="server" ImageUrl="images/DC/dc_logo.jpg" CssClass="img2 w3-round-xxlarge" />
-            <p class="dc w3-round-xxlarge">DC Comics, Inc. (or simply DC) is an American comic book publisher and 
-                the flagship unit of DC Entertainment, a subsidiary of Warner Bros. </p>
-        </div>
+        <h1 class="welcome_text"> Welcome to Marvel and DC quiz! </h1>
+        <b class="welcome_text"> Here you can see if you are a true fan of the MCU and DC. </b>
+
         <div class="apear">
             <asp:Image ID="Image9" runat="server" ImageUrl="~/images/marvel/stanlee.jpeg" CssClass="stan_lee" />
             <p class="apear">  Stan Lee (1922 - 2018) was an American comic book writer, editor, publisher, and producer.

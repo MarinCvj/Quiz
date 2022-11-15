@@ -37,7 +37,7 @@ ul.nav {
 .active {
     background-color: #b32b2b;
 }
-/*Account*/
+/*ACCOUNT*/
 .container_acc {
     display: flex;
     flex-wrap: wrap;
@@ -91,70 +91,32 @@ ul.nav {
     }
 /* HOME */
 /*MARVEL SIDE*/
-.h1center {
-    margin: 0;
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.welcome_text {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.pcenter {
-    margin: 0;
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.container_md {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    flex: 1 1;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .img1 {
-    display: block;
-    position: absolute;
-    top: 120px;
-    left: 500px;
-    width: 25%;
+    margin: 10px;
+    width: 400px;
     border-radius: 10px;
-}
-.marvel {
-    display: none;
-    border: 2px solid #b32b2b;
-    background-color: #b32b2b;
-    max-width: 20%;
-    position: absolute;
-    top: 145px;
-    left: 550px;
-    border-radius: 10px;
-}
-.ex1:hover p {
-    display: block;
-}
-.ex1:hover img {
-    opacity: 0.2;
 }
 .img2 {
-    display: block;
-    position: absolute;
-    top: 95px;
-    right: 600px;
-    max-width: 15%;
+    width: 200px;
     border-radius: 10px;
 }
-.dc {
-    display: none;
-    border: 2px solid #2b30ba;
-    background-color: #2b30ba;
-    max-width: 10%;
-    position: absolute;
-    top: 130px;
-    left: 1070px;
-    border-radius: 10px;
-}
-.ex2:hover p {
-    display: block;
-}
-.ex2:hover img {
-    opacity: 0.2;
-}
+/*AVENGERS*/
 .container_marvel {
     display: flex;
     flex-wrap: wrap;
@@ -164,7 +126,7 @@ ul.nav {
     flex: 1 1;
     height: 750px;
     width: 400px;
-    margin-top: 500px;
+    margin-top: 150px;
     margin-left: 50px;
     float: left;
 }
@@ -201,13 +163,13 @@ div.apear:hover img {
 /*DC SIDE*/
 /*MALCOM*/
 .malcom {
-    display: block;
     position: absolute;
     top: 130px;
     right: 120px;
     max-width: 20%;
     border-radius: 10px;
 }
+/*JUSTICE LEAGUE*/
 .container_dc {
     display: flex;
     flex-wrap: wrap;
@@ -217,7 +179,7 @@ div.apear:hover img {
     flex: 1 1;
     height: 750px;
     width: 400px;
-    margin-top: 500px;
+    margin-top: 150px;
     margin-right: 50px;
     float: right;
 }
